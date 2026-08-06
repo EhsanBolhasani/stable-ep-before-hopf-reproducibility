@@ -39,6 +39,26 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
+## Integrity Check
+
+After downloading and extracting the repository, verify that the release files
+match the archived SHA-256 manifest:
+
+```bash
+python code/release_manifest.py verify
+```
+
+On Windows PowerShell:
+
+```powershell
+.\.venv\Scripts\python.exe code\release_manifest.py verify
+```
+
+This manifest checks the scientific code, data, figures, reports, and metadata.
+Git housekeeping files such as `.gitignore` and `.gitattributes` are ignored so
+that GitHub source archives and manually downloaded ZIP files verify in the same
+way.
+
 ## Quick Check
 
 To run a Python-only smoke check without rebuilding figures or compiling
