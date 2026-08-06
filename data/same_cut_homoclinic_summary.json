@@ -1,0 +1,80 @@
+{
+  "beta": 0.1,
+  "A_H": 0.2777754846476286,
+  "raw_root": 0.3536965438214499,
+  "publication_value": 0.353697,
+  "A_homoclinic_manifold": 0.3536965438214499,
+  "reported_precision_recommendation": 0.353697,
+  "solver_refinement_reference_root": 0.35369654382139853,
+  "solver_refinement_root_range": [
+    0.3536965438072157,
+    0.3536965438221437
+  ],
+  "solver_refinement_span": 1.4928003277958624e-11,
+  "maximum_solver_deviation_from_tightest": 1.4182821583830219e-11,
+  "section_launch_root_span": 2.2071233729548112e-13,
+  "conservative_empirical_parameter_uncertainty": 2e-10,
+  "uncertainty_status": "Empirical sensitivity allowance from solver, section, and launch refinement; not a rigorous or computer-assisted error bound.",
+  "saddle": [
+    0.9454117694942246,
+    -0.29899949551491184
+  ],
+  "lambda_u": 0.05339641915046266,
+  "lambda_s": -0.10451450875217605,
+  "inverse_lambda_u": 18.727847595587978,
+  "saddle_quantity": -0.05111808960171339,
+  "reference_section_r": 0.5,
+  "reference_epsilon": 1e-07,
+  "reference_section_splitting": -1.432187701766452e-13,
+  "default_bracket_A": [
+    0.3535,
+    0.3541
+  ],
+  "default_bracket_splitting_delta_psi": [
+    -0.0005559795164611359,
+    0.001143261278610308
+  ],
+  "centered_splitting_slope_step": 1e-08,
+  "centered_d_splitting_dA": 2.830381529150827,
+  "range_Ac_over_sections_and_epsilons": [
+    0.35369654382142635,
+    0.35369654382164706
+  ],
+  "method": "Forward shooting of the lower-r unstable saddle branch to its return crossing, matched to backward shooting of the lower-r stable branch on r=0.5; robustness checked on four sections and four launch distances. DOP853 tolerances and maximum step were also refined independently; full precision is retained for reproduction while the publication value is rounded to six decimal places.",
+  "six_point_asymptotic_fit": {
+    "n_last_points": 6,
+    "A_min": 0.35368,
+    "A_max": 0.353696,
+    "A_c_manifold": 0.3536965438214499,
+    "inv_c_log_fixed_Ac": 0.05339483254519209,
+    "lambda_u_at_connection": 0.05339641915046266,
+    "relative_rate_mismatch": 2.971370170154744e-05,
+    "rms_log_fixed_Ac": 0.00027877583273667913,
+    "rms_snic_fixed_Ac": 5.404446084824339,
+    "delta_AICc_log_over_snic_fixed_Ac": 118.4678943580193,
+    "A_c_log_free": 0.3536965438704394,
+    "inv_c_log_free": 0.053393554708072236,
+    "A_c_snic_free": 0.353697871635844,
+    "rms_log_free_Ac": 0.00012584555967523663,
+    "rms_snic_free_Ac": 0.9017343628362006,
+    "delta_AICc_log_over_snic_free_Ac": 106.52423783309342
+  },
+  "all_point_fit": {
+    "n_last_points": 23,
+    "A_min": 0.3,
+    "A_max": 0.353696,
+    "A_c_manifold": 0.3536965438214499,
+    "inv_c_log_fixed_Ac": 0.05323472164624153,
+    "lambda_u_at_connection": 0.05339641915046266,
+    "relative_rate_mismatch": 0.0030282462156401824,
+    "rms_log_fixed_Ac": 0.1468655716012846,
+    "rms_snic_fixed_Ac": 36.18746373797932,
+    "delta_AICc_log_over_snic_fixed_Ac": 253.31971576744618,
+    "A_c_log_free": 0.3536965564065776,
+    "inv_c_log_free": 0.05318543372170873,
+    "A_c_snic_free": 0.3537540617774828,
+    "rms_log_free_Ac": 0.12794608193607324,
+    "rms_snic_free_Ac": 13.375224653083071,
+    "delta_AICc_log_over_snic_free_Ac": 213.87931967946622
+  }
+}

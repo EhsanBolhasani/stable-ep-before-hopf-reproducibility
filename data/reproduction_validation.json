@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "checks": {
+    "event_ordering": {
+      "A_SN": 0.17834090261620295,
+      "A_EP": 0.17845421487754967,
+      "A_Hopf": 0.2777754846476286,
+      "A_homoclinic": 0.3536965438214499
+    },
+    "declared_metric_branch": {
+      "rows": 521,
+      "N_Y_removed": true
+    },
+    "homoclinic_sensitivity": {
+      "solver_span": 1.4928003277958624e-11,
+      "section_launch_span": 2.2071233729548112e-13,
+      "declared_empirical_uncertainty": 2e-10,
+      "number_of_solver_settings": 5,
+      "number_of_section_launch_settings": 16
+    },
+    "dispersive_continuation": {
+      "number_of_Delta_values": 21,
+      "Delta_min": 0.0,
+      "Delta_max": 0.005,
+      "pulse_rows": 4503,
+      "microscopic_reset_rows": 72
+    },
+    "finite_N": {
+      "slope_dt_0p04": -0.5013365647246215,
+      "slope_dt_0p02": -0.4963470528153412,
+      "metric_formula_max_gap": 8.604228440844963e-16
+    },
+    "Floquet": {
+      "number_of_cycles": 15,
+      "maximum_trivial_multiplier_error": 1.7895237902632033e-07
+    },
+    "figures": {
+      "numbered_and_graphical_abstract_files": 18,
+      "supplementary_S1_files": 2
+    },
+    "manuscript_deliverables": {
+      "required_files": 10
+    }
+  }
+}

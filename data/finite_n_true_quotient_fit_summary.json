@@ -1,0 +1,96 @@
+{
+  "dt_0p04": {
+    "N": [
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "true_chordal_quotient": {
+      "means": [
+        0.030334479157408323,
+        0.01775447875849058,
+        0.01341288234210197,
+        0.00914691087227373,
+        0.00828971648609374,
+        0.004541775028251841
+      ],
+      "slope": -0.5013365647246215,
+      "intercept": -1.4995236705358879,
+      "bootstrap_95_percent_CI": [
+        -0.5416477794797352,
+        -0.4595212630355841
+      ]
+    },
+    "euclidean_gauge": {
+      "means": [
+        0.03231582286500233,
+        0.018870259722943605,
+        0.014268890882339366,
+        0.009732429655540128,
+        0.008851553118901217,
+        0.004836378012975668
+      ],
+      "slope": -0.5008441604480929,
+      "intercept": -1.4396647757073457,
+      "bootstrap_95_percent_CI": [
+        -0.5414042965888857,
+        -0.4582422807031624
+      ]
+    }
+  },
+  "dt_0p02": {
+    "N": [
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "true_chordal_quotient": {
+      "means": [
+        0.02808126907516156,
+        0.017680069175897876,
+        0.013644355905128422,
+        0.008539519859701186,
+        0.008251171070387845,
+        0.004383229509268428
+      ],
+      "slope": -0.4963470528153412,
+      "intercept": -1.55778328399378,
+      "bootstrap_95_percent_CI": [
+        -0.5332461253543301,
+        -0.4636701799813043
+      ]
+    },
+    "euclidean_gauge": {
+      "means": [
+        0.02989497876060952,
+        0.018837052487842967,
+        0.014496965890818276,
+        0.009094841447713093,
+        0.008809606106544425,
+        0.004662277507535548
+      ],
+      "slope": -0.4961681159106912,
+      "intercept": -1.4960379536470563,
+      "bootstrap_95_percent_CI": [
+        -0.5340257044858384,
+        -0.4627387398296506
+      ]
+    }
+  },
+  "metric_formula": "d_Q(w,v)^2=2+|w|^2+|v|^2-2|1+conj(w)v|, minimized over the OA cycle",
+  "interpretation": "The gauge-fixed Euclidean distance is global-phase invariant but is not the chordal quotient metric; both are reported for a paired comparison.",
+  "quotient_formula_validation": {
+    "method": "closed form compared with deterministic numerical minimization over the global phase for random pairs in the unit disk",
+    "random_seed": 20260727,
+    "number_of_cases": 64,
+    "squared_distance_tolerance": 5e-11,
+    "maximum_absolute_squared_distance_gap": 8.604228440844963e-16,
+    "failures": 0
+  }
+}

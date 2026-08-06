@@ -1,0 +1,6 @@
+# Tested reproducibility environment: CPython 3.12.13.
+# Install with ``py -3.12 -m pip install -r requirements.txt`` on Windows.
+# System tools are documented in README.md because pip does not install them.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8

@@ -1,0 +1,105 @@
+{
+  "finite_difference_step": 0.0001,
+  "SN": {
+    "A": 0.17834090261620295,
+    "x": [
+      0.8206424445437417,
+      -0.21776425502468358
+    ],
+    "J_singular_values": [
+      0.08800435456195023,
+      5.848347023860876e-17
+    ],
+    "q": [
+      0.9897668113181193,
+      -0.14269428584621965
+    ],
+    "p": [
+      1.2189139900641264,
+      1.446733567448492
+    ],
+    "pTq": 1.0,
+    "pT_F_A": -0.2662023300991487,
+    "half_pT_Bqq": 0.965854751089118,
+    "product": -0.25711278527725645
+  },
+  "Hopf": {
+    "A": 0.2777754846476286,
+    "x": [
+      0.5894803099638599,
+      -0.2043074606887531
+    ],
+    "d_trace_dA_along_branch": 0.3037076978755001,
+    "d_Re_lambda_dA_along_branch": 0.15185384893775006
+  },
+  "BT": {
+    "A": 0.33720300374333123,
+    "beta": 0.2239161984644664,
+    "x": [
+      0.6589829632931832,
+      -0.5235987755982993
+    ],
+    "trace_J": 4.163336342344337e-17,
+    "det_J": -1.223897863355723e-17,
+    "norm_J_squared": 1.4537483574275207e-17,
+    "J_singular_values": [
+      0.10925610561850081,
+      1.1163014715280395e-16
+    ],
+    "q0": [
+      0.9054112906985788,
+      -0.42453550461125555
+    ],
+    "q1": [
+      3.8856913506842723,
+      8.28705439913888
+    ],
+    "Pinv_J_P": [
+      [
+        -4.5501143441671364e-18,
+        1.0000000000000009
+      ],
+      [
+        1.1998907593872872e-17,
+        5.941111618493654e-17
+      ]
+    ],
+    "normal_form_a": 0.08075617045188867,
+    "normal_form_b": -0.271974437994251,
+    "physical_parameter_forcing": [
+      [
+        0.06244992866043462,
+        0.2110854323643546
+      ],
+      [
+        -0.41612885450607406,
+        0.2969255899460769
+      ]
+    ],
+    "jordan_parameter_forcing": [
+      [
+        0.23320434374351828,
+        0.06506367860492532
+      ],
+      [
+        -0.03826755750394685,
+        0.03916318343562552
+      ]
+    ],
+    "det_physical_parameter_forcing": 0.10638172108228822,
+    "det_jordan_parameter_forcing": 0.011622852554444368,
+    "augmented_jacobian_det": 0.0040384081450727275,
+    "augmented_jacobian_singular_values": [
+      1.0728831190061314,
+      0.4826489734578525,
+      0.14786029244443455,
+      0.052744216992025916
+    ],
+    "augmented_jacobian_condition_number": 20.341246494726317
+  },
+  "interpretation": {
+    "SN": "Both standard saddle-node coefficients are nonzero.",
+    "Hopf": "The complex pair crosses transversely as A increases.",
+    "BT": "F=0, det(J)=trace(J)=0 and rank(J)=1 alone are necessary but not a complete generic-BT check.  The additional nonzero a, b, parameter-forcing determinant, and nonsingular augmented system establish the missing nondegeneracy/unfolding checks in the declared Jordan-chain convention."
+  }
+}

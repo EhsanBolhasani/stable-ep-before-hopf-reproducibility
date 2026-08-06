@@ -1,0 +1,25 @@
+{
+  "slope_dt_0p04": -0.5013365647246215,
+  "intercept_dt_0p04": -1.4995236705358879,
+  "bootstrap_95_percent_CI": [
+    -0.5416477794797352,
+    -0.4595212630355841
+  ],
+  "slope_dt_0p02": -0.4963470528153412,
+  "N": [
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "seeds_dt_0p04": 8,
+  "seeds_dt_0p02": 3,
+  "integration_window": [
+    250.0,
+    800.0
+  ],
+  "observable": "RMS exact chordal quotient distance to the OA cycle, minimized over global phase and cycle phase",
+  "scope": "finite-horizon OA-like Poisson-kernel ensemble; Delta=0"
+}

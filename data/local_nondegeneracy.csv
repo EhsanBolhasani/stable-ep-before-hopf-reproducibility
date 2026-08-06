@@ -1,0 +1,10 @@
+event,quantity,value,normalization
+SN,pT_F_A,-0.2662023300991487,"||q||2=1, q_r>0, pTq=1"
+SN,0.5_pT_Bqq,0.965854751089118,"||q||2=1, q_r>0, pTq=1"
+Hopf,d_trace_dA_along_branch,0.3037076978755001,physical A
+Hopf,d_Re_lambda_dA_along_branch,0.15185384893775006,physical A
+BT,normal_form_a,0.08075617045188867,unit q0; q0_r>0; q0Tq1=0; Jq1=q0
+BT,normal_form_b,-0.271974437994251,unit q0; q0_r>0; q0Tq1=0; Jq1=q0
+BT,det_F_A_F_beta,0.10638172108228822,physical state and parameters
+BT,det_augmented_F_det_trace,0.0040384081450727275,"variables (r,psi,A,beta)"
+BT,sigma_min_augmented_F_det_trace,0.052744216992025916,"variables (r,psi,A,beta)"

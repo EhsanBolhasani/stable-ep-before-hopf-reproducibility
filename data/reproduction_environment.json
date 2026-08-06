@@ -1,0 +1,11 @@
+{
+  "workflow_mode": "smoke",
+  "python": "3.12.13",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "latexmk": "Latexmk, John Collins, 31 Jan. 2024. Version 4.83",
+  "bibtex": "BibTeX 0.99d (TeX Live 2023/Debian)",
+  "pdftocairo": "pdftocairo version 24.02.0"
+}

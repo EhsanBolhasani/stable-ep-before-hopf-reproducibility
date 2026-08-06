@@ -1,0 +1,19 @@
+{
+  "nominal_A": {
+    "stable_node": 0.17840322435994366,
+    "exceptional_point": 0.17845421487754967,
+    "stable_focus": 0.1798139620137104
+  },
+  "EP_minus_SN_gap": 0.00011331226134672634,
+  "maximum_relative_L2_error_for_abs_epsilon_le_1e-3": {
+    "stable_node": 0.0780016237500683,
+    "exceptional_point": 0.059311625786975235,
+    "stable_focus": 0.021052130057588547
+  },
+  "largest_two_sided_pulse_remaining_in_local_neighborhood_by_t600": {
+    "stable_node": 0.003,
+    "exceptional_point": 0.003,
+    "stable_focus": 0.03
+  },
+  "noise_model": "independent Gaussian observation noise added to delta-r samples; no stochastic forcing was added to the OA dynamics"
+}
