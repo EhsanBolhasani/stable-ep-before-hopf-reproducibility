@@ -92,7 +92,7 @@ def save_figure(fig: plt.Figure) -> None:
             raise RuntimeError(f"Incomplete PDF render: {pdf_tmp}")
         fig.savefig(png_tmp, format="png", dpi=300)
         for temporary, final in ((pdf_tmp, pdf), (png_tmp, png)):
-            with temporary.open("rb") as stream:
+            with temporary.open("r+b") as stream:
                 os.fsync(stream.fileno())
             os.replace(temporary, final)
     finally:
