@@ -33,7 +33,9 @@ EXCLUDED_PARTS = {
 }
 EXCLUDED_NAMES = {
     "MANIFEST.sha256",
+    ".gitattributes",
     ".DS_Store",
+    ".gitignore",
     # Superseded by data/locked_branch_declared_metric.csv.
     "locked_branch_physical_metric.csv",
     "mainNotes.bib",
@@ -56,8 +58,7 @@ def is_release_file(path: Path) -> bool:
         return False
     if relative.name in EXCLUDED_NAMES:
         return False
-    curated_hidden_files = {".gitattributes", ".gitignore"}
-    if relative.name.startswith(".") and relative.name not in curated_hidden_files:
+    if relative.name.startswith("."):
         return False
     return not any(relative.name.endswith(suffix) for suffix in EXCLUDED_SUFFIXES)
 
