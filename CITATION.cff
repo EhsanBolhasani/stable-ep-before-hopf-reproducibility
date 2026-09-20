@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite the associated manuscript and archived repository DOI."
+message: "Cite the manuscript and September 2026 revision and revised Online Resource 1. The baseline v1.0.0 DOI is 10.5281/zenodo.21828808; it does not identify these additions."
 title: "Reproducibility code and data for a stable exceptional point before Hopf breathing"
 authors:
   - family-names: "Bolhasani"
@@ -8,6 +8,6 @@ authors:
     given-names: "Seyed Hamed"
   - family-names: "Perc"
     given-names: "Matjaž"
-date-released: "2026-08-06"
-version: "1.0.0"
+version: "revision-2026-09-11"
+repository-code: "https://github.com/EhsanBolhasani/stable-ep-before-hopf-reproducibility"
 license: "MIT"

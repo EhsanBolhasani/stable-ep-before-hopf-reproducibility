@@ -1,0 +1,3 @@
+# Additional revision checks; the original environment record is unchanged.
+-r requirements.txt
+mpmath==1.4.1

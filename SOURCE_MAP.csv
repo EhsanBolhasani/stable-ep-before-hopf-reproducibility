@@ -1,0 +1,12 @@
+submission_asset,reproducibility_pdf,generator
+Fig1.pdf,figures/Fig1_overview.pdf,code/make_figures.py
+Fig2.pdf,figures/Fig2_EP_and_relaxation.pdf,code/make_figures.py
+Fig3.pdf,figures/Fig3_Hopf_and_Floquet.pdf,code/make_figures.py
+Fig3_blue.pdf,figures/Fig3_Hopf_and_Floquet_blue.pdf,code/make_figures.py
+Fig4.pdf,figures/Fig4_homoclinic_evidence.pdf,code/make_figures.py
+Fig5.pdf,figures/Fig5_parameter_synthesis.pdf,code/make_figures.py
+FigS1.pdf,reports/nonlinear_pulse_robustness.pdf,code/nonlinear_pulse_robustness.py
+FigS2.pdf,figures/Fig8_dispersion_and_pulse.pdf,code/make_figures.py
+FigS3.pdf,figures/Fig6_modal_projection_M4_M5.pdf,code/make_figures.py
+FigS4.pdf,figures/Fig7_finite_N_validation.pdf,code/make_figures.py
+Graphical_Abstract.pdf,figures/Graphical_Abstract.pdf,code/make_figures.py

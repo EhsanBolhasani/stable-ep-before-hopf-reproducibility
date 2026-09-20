@@ -1,5 +1,41 @@
 # A stable exceptional point before chimera breathing: reproducibility repository
 
+## September 2026 revision supplement
+
+This local supplementary distribution adds numerical refinement and metric
+checks and changes the Fig. 3 growth-rate label from mu_J to gamma_J.
+It was prepared from GitHub commit
+`005bdef0869502cc5e43caeefd347932ae5549b2`.
+It is not identical to the archived v1.0.0 release and has no new archival DOI.
+No change to the live GitHub or Zenodo records is implied by this distribution.
+
+The baseline v1.0.0 release is archived at
+[10.5281/zenodo.21828808](https://doi.org/10.5281/zenodo.21828808).
+The complete revised Online Resource 1 is included in `online_resource_1/`.
+Sections S1–S4 retain and clarify the original derivations and validation;
+S5–S9 contain the additional revision analyses and source map.
+`data/revision/` contains their actual outputs. Regenerate these checks with:
+
+```bash
+python -m pip install -r requirements_revision.txt
+python code/revision_checks.py --repository . --output data/revision
+```
+
+The new calculations were executed with Python 3.12.14, NumPy 2.3.5,
+SciPy 1.17.0, and mpmath 1.4.1. The pinned original environment below remains
+the environment record for the pre-existing analyses. The homoclinic
+refinement and finite-population tables were inspected, not regenerated in
+the revision check. A refreshed manifest describes this local distribution.
+
+To regenerate the clean and blue-marked Fig. 3 from the existing data:
+
+```bash
+python -c "import sys; sys.path.insert(0, 'code'); import make_figures as f; f.figure3_hopf_floquet(); f.figure3_hopf_floquet(mark_changes=True)"
+```
+
+The blue figure marks only the changed growth-rate labels. A LaTeX
+installation is required for the authoritative vector render.
+
 This repository contains the Python code, numerical data, and figure-building
 scripts for the manuscript:
 
@@ -19,6 +55,8 @@ manuscript, cover letter, or editorial files.
 - `data/`: machine-readable numerical tables and JSON summaries.
 - `figures/`: publication figures in PDF and PNG form.
 - `reports/`: supporting diagnostic figures and audit notes.
+- `online_resource_1/`: complete revised supplementary PDF, LaTeX, and figures.
+- `SOURCE_MAP.csv`: submission labels and their corresponding figure sources.
 - `run_all.py`: top-level reproduction driver.
 - `requirements.txt`: pinned Python dependencies.
 - `MANIFEST.sha256`: release integrity manifest.
@@ -104,5 +142,19 @@ fixed in the source code.
 
 ## Citation
 
-If you use this code or data, please cite the associated manuscript and the
-archived repository DOI once available.
+Please cite the associated manuscript and identify the version used.
+For baseline v1.0.0 use https://doi.org/10.5281/zenodo.21828808.
+For the added checks identify the September 2026 revision supplement and
+Online Resource 1, Sections S5–S9; do not attribute these additions to the baseline DOI.
+
+## Compiling the supplementary document
+
+From `online_resource_1/`, run this command three times:
+
+```bash
+pdflatex -interaction=nonstopmode -halt-on-error supplement_clean.tex
+```
+
+Its figure paths are local. The full journal submission package separately contains
+both manuscript variants, both supplementary variants, and a `build_pdfs.py`
+helper. The public data-reproduction driver does not compile these journal files.
