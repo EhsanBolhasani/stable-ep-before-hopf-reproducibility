@@ -8,7 +8,7 @@ It was prepared from GitHub commit
 `005bdef0869502cc5e43caeefd347932ae5549b2`.
 This public revision distribution corresponds to the revised v1.1.0
 release, archived at
-[10.5281/zenodo.22860110](https://doi.org/10.5281/zenodo.22860110).
+[10.5281/zenodo.22861086](https://doi.org/10.5281/zenodo.22861086).
 The baseline v1.0.0 release remains available as a historical archive at
 [10.5281/zenodo.21828808](https://doi.org/10.5281/zenodo.21828808).
 
@@ -146,7 +146,7 @@ fixed in the source code.
 
 Please cite the associated manuscript and identify the version used.
 For this revised release, please cite the version-specific DOI:
-https://doi.org/10.5281/zenodo.22860110.
+https://doi.org/10.5281/zenodo.22861086.
 The baseline v1.0.0 DOI remains available for the original release:
 https://doi.org/10.5281/zenodo.21828808.
 
