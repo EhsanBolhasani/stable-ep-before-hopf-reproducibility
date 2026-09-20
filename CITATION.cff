@@ -1,5 +1,5 @@
-cff-version: 1.2.0
-message: "Cite the revised v1.1.0 reproducibility release and the associated manuscript. The version-specific archive DOI is 10.5281/zenodo.22860110; the baseline v1.0.0 DOI is 10.5281/zenodo.21828808."
+cff-version: 1.1.1
+message: "Cite the revised v1.1.0 reproducibility release and the associated manuscript. The version-specific archive DOI is 10.5281/zenodo.22861086; the baseline v1.0.0 DOI is 10.5281/zenodo.21828808."
 title: "Reproducibility code and data for a stable exceptional point before Hopf breathing"
 authors:
   - family-names: "Bolhasani"
@@ -9,6 +9,6 @@ authors:
   - family-names: "Perc"
     given-names: "Matjaž"
 version: "v1.1.0"
-doi: "10.5281/zenodo.22860110"
+doi: "10.5281/zenodo.22861086"
 repository-code: "https://github.com/EhsanBolhasani/stable-ep-before-hopf-reproducibility"
 license: "MIT"
