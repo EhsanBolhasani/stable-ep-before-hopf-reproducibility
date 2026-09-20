@@ -6,11 +6,13 @@ This local supplementary distribution adds numerical refinement and metric
 checks and changes the Fig. 3 growth-rate label from mu_J to gamma_J.
 It was prepared from GitHub commit
 `005bdef0869502cc5e43caeefd347932ae5549b2`.
-It is not identical to the archived v1.0.0 release and has no new archival DOI.
-No change to the live GitHub or Zenodo records is implied by this distribution.
-
-The baseline v1.0.0 release is archived at
+This public revision distribution corresponds to the revised v1.1.0
+release, archived at
+[10.5281/zenodo.22860110](https://doi.org/10.5281/zenodo.22860110).
+The baseline v1.0.0 release remains available as a historical archive at
 [10.5281/zenodo.21828808](https://doi.org/10.5281/zenodo.21828808).
+
+
 The complete revised Online Resource 1 is included in `online_resource_1/`.
 Sections S1–S4 retain and clarify the original derivations and validation;
 S5–S9 contain the additional revision analyses and source map.
@@ -143,9 +145,10 @@ fixed in the source code.
 ## Citation
 
 Please cite the associated manuscript and identify the version used.
-For baseline v1.0.0 use https://doi.org/10.5281/zenodo.21828808.
-For the added checks identify the September 2026 revision supplement and
-Online Resource 1, Sections S5–S9; do not attribute these additions to the baseline DOI.
+For this revised release, please cite the version-specific DOI:
+https://doi.org/10.5281/zenodo.22860110.
+The baseline v1.0.0 DOI remains available for the original release:
+https://doi.org/10.5281/zenodo.21828808.
 
 ## Compiling the supplementary document
 
